@@ -3,24 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Tech Word</title>
+  <title>Tech News Now!</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Taviraj&display=swap" rel="stylesheet">
 </head>
 
   <div class="container .col-12">
     <header id="home">
-        <h1 class="">The Tech Word</h1>
+        <h1 class="">Tech News Now!</h1>
         <nav class="navbar">
             {{#if loggedIn}}
-            <a href="/" class="navbar-item">homepage</a>
-            <a href="/dashboard" class="navbar-item">dashboard</a>
-            <a href="/dashboard/create/" class="navbar-item">create post</a>
-            <button id="logout" class="button logout">logout</button>
+            <a href="/" class="navbar-item">Homepage</a>
+            <a href="/dashboard" class="navbar-item">Dashboard</a>
+            <a href="/dashboard/create/" class="navbar-item">Create A Post</a>
+            <button id="logout" class="button logout">Logout</button>
             {{else}}
-            <a href="/" class="navbar-item pt-1">homepage</a>
-            <a href="/login" class="btn login">login</a>
+            <a href="/" class="navbar-item pt-1">Homepage</a>
+            <a href="/login" class="btn login">Login</a>
             {{/if}}
         </nav>
     </header>
@@ -29,7 +32,7 @@
             <!-- {{{ body }}} -->
             <div class="row mb-1">
                 <a href="/dashboard" class=""> &larr; Dashboard</a>
-                <h1>Edit Post</h1>
+                <h1>Edit This Post</h1>
                 <form class="edit-post-form">
                     <div class="mb-3">
                        <label for="post-title" class="form-label">Post Title:</label>
@@ -55,7 +58,7 @@
         </div>
       <div class="row-is-full content has-text-centered">
     <p>
-      The Tech Word by <a href="https://github.com/leonhsu95"> Leon Hsu</a>
+      Tech News Now! by <a href="https://github.com/fares3356"> Fares Akhtar</a>
     </p>
   </div>
     </footer>

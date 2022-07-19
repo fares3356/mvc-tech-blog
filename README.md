@@ -1,6 +1,6 @@
 # Tech Blog
 
-Link to the deployed application can be tested here on Heroku: [Tech Blog](https://tech-blog-lh.herokuapp.com/) and the project repository can be viewed here: [Tech Blog](https://github.com/leonhsu95/tech-blog).
+Link to the deployed application can be tested here on Heroku: [Tech Blog](https://tech-blog-lh.herokuapp.com/) and the project repository can be viewed here: [Tech Blog](https://github.com/fares3356/mvc-tech-blog).
 
 Feel free to test by logging in with these credentials:
 Username: testUser
@@ -11,22 +11,20 @@ Password: 1testUser23?
 This Tech Blog is a CMS style project utilising the MVC structure, routes, SQL and Handlebars templating. In this website, users can view/edit posts, leave comments login and register. Bootstrap is used as the primary CSS styling.
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-
 ## Installation
 
 To install the files into your local repo, using Git Bash Terminal:
 
-1) Create a folder locally to nominate for cloning from online repo
-2) Clone with SSH by
+1. Create a folder locally to nominate for cloning from online repo
+2. Clone with HTTPS:
 
-```GitBash Commands
-git clone git@github.com:leonhsu95/tech-blog.git"
- ```
+https://github.com/fares3356/mvc-tech-blog.git
 
 Additionally, please install [NodeJS](https://nodejs.org/en/) and the below npm packages
 
@@ -44,11 +42,11 @@ npm i inquirer
 npm i mysql2
 npm i nodemon
 npm i sequelize
- ```
+```
 
- Before you run the code, please change scripts:{start: } to 'node server.js' in the package.json file and change your database login credentials in the .env file.
+Before you run the code, please change scripts:{start: } to 'node server.js' in the package.json file and change your database login credentials in the .env file.
 
- It is highly encouraged to install [Insomnia](https://insomnia.rest/), [MySQL](https://www.mysql.com/products/community/) and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) for RESTful API and Database functionalities to work.
+It is highly encouraged to install [Insomnia](https://insomnia.rest/), [MySQL](https://www.mysql.com/products/community/) and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) for RESTful API and Database functionalities to work.
 
 ## Credits
 
@@ -63,7 +61,6 @@ The project should look like this:
 ![Application Screenshot 3](public/screenshots/screenshot3.png)
 ![Application Screenshot 4](public/screenshots/screenshot4.png)
 ![Application Screenshot 5](public/screenshots/screenshot5.png)
-
 
 Usage of this project is subject to the below license.
 
@@ -91,18 +88,15 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Features
+
 - Posts are viewable and you can see the author and date of the post created.
 - You can freely Login and Sign Up to create new posts.
 - All posts made by the author are editable and can be deleted.
 - Logged in users can leave comments.
 
-
 ## Tests
 
-This project can be tested with [JS Validation Service](https://jshint.com/). The [Insomnia](https://insomnia.rest/) Design and API Client 
+This project can be tested with [JS Validation Service](https://jshint.com/). The [Insomnia](https://insomnia.rest/) Design and API Client
 is used to test these functionalities as it can GET, POST, PUT and DELETE Data from the given URL without Front End UI Buttons or Designs.
 You will also require [MySQL](https://www.mysql.com/products/community/) and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) for
 this application's database.
-
-
-
