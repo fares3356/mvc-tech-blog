@@ -1,6 +1,6 @@
 # Tech Blog
 
-Link to the deployed application can be tested here on Heroku: [Tech Blog](https://tech-blog-lh.herokuapp.com/) and the project repository can be viewed here: [Tech Blog](https://github.com/fares3356/mvc-tech-blog).
+The project repository can be viewed here: [Tech Blog](https://github.com/fares3356/mvc-tech-blog).
 
 Feel free to test by logging in with these credentials:
 Username: testUser
@@ -13,8 +13,6 @@ This Tech Blog is a CMS style project utilising the MVC structure, routes, SQL a
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 
 ## Installation
@@ -48,26 +46,8 @@ Before you run the code, please change scripts:{start: } to 'node server.js' in 
 
 It is highly encouraged to install [Insomnia](https://insomnia.rest/), [MySQL](https://www.mysql.com/products/community/) and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) for RESTful API and Database functionalities to work.
 
-## Credits
-
-The initial template for the backend is created by University of Sydney and Trilogy Education.
-All other codes and functionalities are developed by Leon Hsu [leonhsu95](https://github.com/leonhsu95)
-
-## Usage
-
-The project should look like this:
-![Application Screenshot](public/screenshots/screenshot.png)
-![Application Screenshot 2](public/screenshots/screenshot2.png)
-![Application Screenshot 3](public/screenshots/screenshot3.png)
-![Application Screenshot 4](public/screenshots/screenshot4.png)
-![Application Screenshot 5](public/screenshots/screenshot5.png)
-
-Usage of this project is subject to the below license.
 
 ## License
-
-Copyright 2021 © Leon Hsu [leonhsu95](https://github.com/leonhsu95). All rights reserved.
-Licensed under the [MIT](https://opensource.org/licenses/MIT).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
